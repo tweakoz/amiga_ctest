@@ -25,7 +25,7 @@ amictx::amictx()
 
     ///////////////////////////////////////
 
-    const int width = 320;
+    const int width = 640;
     const int height = 200;
     const int depth = 4;
 

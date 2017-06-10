@@ -3,6 +3,7 @@
 
 [fs-uae]
 shader=scanline-4x
+fullscreen=1
 #accelerator = blizzard-1230
 amiga_model = A500+
 chip_memory = 512
