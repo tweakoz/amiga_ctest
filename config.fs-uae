@@ -2,16 +2,17 @@
 # Last saved: 2017-06-02 22:52:29
 
 [fs-uae]
-#shader=scanline-4x
-accelerator = blizzard-1230
+shader=scanline-4x
+#accelerator = blizzard-1230
 amiga_model = A500+
-chip_memory = 2048
-cpu = 68030
-zorro_iii_memory=16384
+chip_memory = 512
+cpu = 68000
+#zorro_iii_memory=16384
 console_debugger = 1
 #jit_compiler=true
 floppy_drive_0_sounds=off
 hard_drive_0 = ./syslaunch
 kickstart_file = $(AMI)/roms/Kickstart2.0.rom
+#kickstart_file = $(AMI)/roms/Kickstart3.1.rom
 ntsc_mode = 1
 
