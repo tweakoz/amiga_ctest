@@ -2,7 +2,9 @@
 # Last saved: 2017-06-02 22:52:29
 
 [fs-uae]
-shader=scanline-4x
+#shader=scanline-4x
+scanlines=1
+scanlines_dark = 50
 fullscreen=1
 #accelerator = blizzard-1230
 amiga_model = A500+

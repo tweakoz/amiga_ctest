@@ -50,6 +50,9 @@ int main( int argc, char** argv ){
     {
         short dbIDX = i&1;
 
+        for( int j=1; j<16; j++ )
+            custom.color[j] = fastrand();
+
         BitMap* bm = ctx._bitmap[dbIDX]._object;
 
         ctx._screen->ViewPort.RasInfo->BitMap = bm;
